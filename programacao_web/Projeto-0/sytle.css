@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+/* Reset CSS */
+* {
+    /* Espaço entre a limites classe e o exterior */
+    margin: 0;
+    /* Esoaço entre os limites da classe e o conteudo */
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-logo-ballerini {
+    /* Altura */
+    height: 74px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-items {
+    /* 'Família' da fonte */
+    font-family: 'Sarala', sans-serif;
+    /* Cor da fonte */
+    color: #FFF2E7;
+    /* Tamanho da fonte */
+    font-size: 18px;
+    /* Peso da fonte */
+    font-weight: 400;
+    /* Se ela for normal ou em negrito, por exemplo */
+    font-style: normal;
+}
+
+/* Hover é usado para mudar o conteudo da classe quando o mouse estiver em cima */
+.cabecalho-menu-items:hover {
+    color: rgba(236, 214, 196, 0.53)
+}
+
+.principal {
+    /* Borda do topo */
+    border-top: 0.4px solid #FFF2E7;
+    /* Margem de baixo dos conteudos do seletor */
+    margin-bottom: 45px;
+}
+
+.principal-primario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-primario-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal-primario-conteudo-titulo {
+    font-family: 'Righteous', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF2E7
+}
+
+.principal-primario-conteudo-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ECD6C4;
+}
+
+.principal-primario-conteudo-butao {
+    /* Cor do background */
+    background-color: #ECD6C4;
+    /* Comprimento */
+    width: 180px;
+    /* Largura */
+    height: 70px;
+    border: none;
+    /* Borda arrendondada */
+    border-radius: 24px;
+    /* Sombra */
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #2F2325
+}
+
+.principal-primario-conteudo-butao:hover {
+    background-color: rgba(236, 214, 196, 0.53)
+}
+
+.principal-primario-imagem {
+    width: 450px;
+}
+
+.principal-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px
+}
+
+.principal-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+
+.principal-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ECD6C4;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 00.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+    height: 45px;
+    display: block;
+    margin: 0 auto
+}
