@@ -52,6 +52,10 @@ body {
     color: #000000;
 }
 
+.cabecalho-menu-items:hover {
+    color: #797979;
+}
+
 .cabecalho-login {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
@@ -63,6 +67,10 @@ body {
     border-radius: 30px;
     width: 140px;
     height: 60px;
+}
+
+.cabecalho-login:hover {
+    background-color: #8c6bc2;
 }
 
 .principal {
@@ -111,4 +119,8 @@ body {
     border-radius: 30px;
     width: 200px;
     height: 80px;
+}
+
+.principal-conteudo-butao:hover {
+    background-color: #8c6bc2;
 }
