@@ -1,0 +1,17 @@
+Estrutura de um programa em Java
+
+import 'Biblioteca'                                   ---> Importa a Biblioteca e suas respctivas funções
+
+package UFOPA.programacao_orientada_a_objetos.Aula_1; ---> Caminho do arquivo para a JVM achar, complilar o código e executar.
+
+public class 'Nome do arquivo' {                      --->
+    public static void main(String[] args) {          ---> 
+                                                      ---> Local onde vai ser escrito o código
+    }
+}
+____________________________________________________________________________________________________________________________________
+--- Códigos ---
+
+System.out.print("x")                                 --> Inprime x na tela
+import java.util.Scanner;                             --> Importa o método Scanner, usado para entrada de dados
+<método> <nome> = new <metodo>(args)                  --> Inicia um método

@@ -1,4 +1,4 @@
-package UFOPA.programacao_orientada_a_objetos.AulaUm;
+package UFOPA.programacao_orientada_a_objetos.Aula_1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package UFOPA.programacao_orientada_a_objetos.AulaDois;
+package UFOPA.programacao_orientada_a_objetos.Aula_2;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class Main {
         System.out.print("3° Lado: ");
         c = saida.nextDouble();
         Triangulo x = new Triangulo(a, b, c);
-        System.out.printf("Área x: %.4f\n", x.GetArea());
+        System.out.printf("Área x: %.4f\n", x.getArea());
 
         // Entrada de dados do triângulo Y
         System.out.println("________________________");
@@ -31,12 +31,12 @@ public class Main {
         System.out.print("3° Lado: ");
         c = saida.nextDouble();
         Triangulo y = new Triangulo(a, b, c);
-        System.out.printf("Área Y: %.4f\n", y.GetArea());
+        System.out.printf("Área Y: %.4f\n", y.getArea());
         System.out.println("________________________");
 
-        if (x.GetArea() == y.GetArea()) {
+        if (x.getArea() == y.getArea()) {
             System.out.println("SÃO IGUAIS");
-        } else if (x.GetArea() > y.GetArea()) {
+        } else if (x.getArea() > y.getArea()) {
             System.out.println("TRIÃNGULO MAIOR: X");
         } else {
             System.out.println("TRIÃNGULO MAIOR: Y");
@@ -46,3 +46,4 @@ public class Main {
         saida.close();
     }
 }
+// void --> Signigica que não tem retorno.

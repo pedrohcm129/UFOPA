@@ -1,4 +1,4 @@
-package UFOPA.programacao_orientada_a_objetos.AulaDois;
+package UFOPA.programacao_orientada_a_objetos.Aula_2;
 
 public class Triangulo {
     // Atribulto da classe Triângulo
@@ -12,7 +12,7 @@ public class Triangulo {
     }
     
     // Metodo Get para acesso do valor de area no Main //
-    public double GetArea() {
+    public double getArea() {
         return this.area;
     }
 }   
