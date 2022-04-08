@@ -109,18 +109,20 @@ body {
 }
 
 .principal-conteudo-butao {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    color: #FFFFFF;
     background-color: #31165B;
     border: none;
     border-radius: 30px;
     width: 200px;
     height: 80px;
     text-align: center;
-    
+}
+
+.principal-conteudo-butao-texto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
 }
 
 .principal-conteudo-butao:hover {
