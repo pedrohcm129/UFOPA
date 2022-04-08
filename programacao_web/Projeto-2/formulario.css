@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 200px;
+}
+
+.cabecalho-marca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecalho-marca-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    color: #202020;
+}
+
+.cabecalho-menu {
+    height: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-menu-items {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    color: #000000;
+}
+
+.cabecalho-menu-items:hover {
+    color: #797979;
+}
+
+.cabecalho-login {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #31165B;
+    border: none;
+    border-radius: 30px;
+    width: 140px;
+    height: 60px;
+}
+
+.cabecalho-login:hover {
+    background-color: #8c6bc2;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Montserrat';
+    font-size: 16px;
+
+}
+
+.principal-conteudo {
+    border: 2px solid #000000;
+    padding: 30px;
+    border-radius: 30px;
+    width: 440px;
+    height: 420px;
+}
+
+.principal-conteudo-titulo {
+    margin-bottom: 1rem;
+    font-size: 30px;
+}
+.principal-conteudo-titulo-p2 {
+    font-size: 20px;
+}
+
+.principal-conteudo-formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-conteudo-formilaio-grupo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.principal-conteudo-formulario-nome-sobrenone {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+fieldset {
+    border: 0;
+}
+
+input, button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    margin-bottom: 0.2rem;
+    display: block;
+    font-weight: 600;
+}
+
+.campo input {
+    border: 1px solid #202020;
+    box-shadow: none;
+}
+
+.campo input:focus {
+    background-color: #ece9e9;
+}
+
+.butao {
+    border: 0;
+    background-color: #31165B;
+    justify-content: space-around;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    color:#ece9e9;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
+    display: block;
+    margin: 20px auto;
+}
+
+.butao:hover {
+    background-color: #8c6bc2;
+}
