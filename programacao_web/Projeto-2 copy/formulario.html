@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <script src="formulario.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <section class="cabecalho-marca">
+            <img class="cabecalho-marca-logo" src="images/logo.svg" alt="Logo">
+            <h2 class="cabecalho-marca-titulo">Save Earth</h2>
+        </section>
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-items" href="">Home</a>
+            <a class="cabecalho-menu-items" href="">Sobre nós</a>
+            <a class="cabecalho-menu-items" href="">Contato</a>
+        </nav>
+    </header>
+    <main class="principal">
+        <div class="principal-conteudo">
+            <div class="principal-conteudo-titulo">
+                <h2 class="principal-conteudo-titulo-p1">Cadastre-se</h2>
+                <p class="principal-conteudo-titulo-p2">Complete com suas informações</p>
+            </div>
+    
+            <form class="principal-conteudo-formulario" name="formulario">
+    
+                <fieldset class="principal-conteudo-formulario-nome-sobrenone">
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="Nome" id="nome">
+                    </div>
+    
+                    <div class="campo">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="Sobrenome" id="sobrenome">
+                    </div>
+                </fieldset>
+                <div class="principal-conteudo-formilaio-grupo">
+                    <div class="campo">
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" id="cpf">
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+        
+                    <div class="campo">
+                        <label for="telefone">Telefone</label>
+                        <input type="text" name="telefone" id="telefone">
+                    </div>
+        
+                    <div class="campo">
+                        <label for="github">Link GitHub</label>
+                        <input type="url" name="linkgithub" id="linkgithub">
+                    </div>
+                </div>
+    
+                <button class="butao" id="butao" type="submit" onclick="validarUsuario()">Enviar</button>
+            </form>
+        </div>
+        <img class="principal-imagem" src="images/image_space.svg" alt="Imagem espaço" width="700px">
+    </main>
+</body>
+</html>
