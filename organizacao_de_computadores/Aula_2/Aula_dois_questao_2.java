@@ -1,4 +1,4 @@
-package UFOPA.organizacao_de_computadores.AulaDois;
+package UFOPA.organizacao_de_computadores.Aula_2;
 
 public class Aula_dois_questao_2 {
     public static void main(String[] args) {
